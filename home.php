@@ -7,7 +7,7 @@ header('location:login.php');
 
 $con = mysqli_connect('localhost','root');
 
-mysqli_select_db($con, 'quizdbase');
+mysqli_select_db($con, 'suryakantnotes');
 
 ?>
 
@@ -26,7 +26,7 @@ mysqli_select_db($con, 'quizdbase');
 <div class="container">
 
 
-	<br> <h1 class="text-center text-primary"> THAPATECHNICAL WEBDEVELOPER QUIZ </h1><br>
+	<br> <h1 class="text-center text-primary"> welcome to suryakantnotes </h1><br>
 	
 	<h2 class="text-center text-success"> Welcome <?php echo $_SESSION['username']; ?> </h2> <br>
 
@@ -86,7 +86,7 @@ mysqli_select_db($con, 'quizdbase');
 	</div><br>
 
 	<div>
-		<h5 class="text-center">  ©2018 ThapaTechnical </h5>
+		<h5 class="text-center">  ©2019 suryakantnotes </h5>
 	</div><br><br>
 
 
