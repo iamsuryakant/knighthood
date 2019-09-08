@@ -1,2 +1,1 @@
 # knighthood
-print("hello world")
